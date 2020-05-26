@@ -7,8 +7,10 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
 * Baixo custo 
 * Corrente de 100mA
 
-# Fotos do Projeto
+# Fotos do Circuito
 ...
+# Vídeo Explicativo
+* inserir url do YouTune
 ## Participantes
 
 * **Giovanni Shibaki Camargo** - [giovanni-shibaki](https://github.com/giovanni-shibaki)
