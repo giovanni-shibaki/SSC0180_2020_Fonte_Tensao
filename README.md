@@ -3,6 +3,8 @@
 Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC0180 USP 2020. Vamos partir da tensão da tomada (220V ou 110V) e teremos que transforma-la de 110V/220V Corrente Alternada em uma tensão adequada para alimentar nosso circuito. Isto é, de 3V-12V em Corrente Contínua.
 
 ## Diagrama da Fonte
+<img src="images/DiagramaFonte.PNG">
+
 * Tensão ajustável entre 3V e 12V
 * Corrente de 100mA
 * Baixo Custo
@@ -42,13 +44,13 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
     - Transforma AC em DC que sai de nosso transformador
 7. Transformador
     - Bivolt (pode ser ligado em 220v ou 127v)
-8. Fios
+<!-- 8. Fios
     - 
 9. Protoboard
-    - Base de construção de circuitos. Escolhida por praticidade, não necessita soldar para conectar componentes do circuito
+    - Base de construção de circuitos. Escolhida por praticidade, não necessita soldar para conectar componentes do circuito -->
 
 ## Circuito no Falstad
-`Inserir Url`
+*http://tinyurl.com/y8g3jqbd
 
 ## Projeto do Esquemático e do PCB no EAGLE
 
@@ -68,4 +70,4 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
 
 ## Agradecimentos
 
-* Agradecimentos ao Prof Simões pela oportunidade de realizar o projeto
+* Agradecimentos ao Prof Simões pela oportunidade de realizar o projeto.
