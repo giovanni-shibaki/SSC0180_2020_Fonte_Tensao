@@ -14,12 +14,12 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
 | Resistor          | 5kΩ                 | R$            |
 | Potenciômetro     | 5kΩ                 | R$            |
 | Capacitor         | 470μF               |               |
-| Diodo de Zener*   | 0,5W                | R$            |
+| Diodo de Zener    | 0,5W                | R$            |
 | Ponte Retificadora| Suporta 15V e 2A    | R$            |
 | Transformador     | 15V e 500mA         | R$            |
 | Fios (jumper)     | 15V e 500mA         | R$            |
 | Protoboard        | 830 Pontos          | R$            |
-| **Custo Total**   |                     | **R$  **          |          
+| **Custo Total**   |                     | **R$**          |          
 
 ### Justificativa dos Componentes Escolhidos
 1. Resistor
