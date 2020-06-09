@@ -30,24 +30,24 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
 <!-- | Protoboard        | 830 Pontos          | R$            | -->
 ### Justificativa dos Componentes Escolhidos
 1. Resistores
-    - R1 (390Ω) : Limita corrente eletrica que passa pelo Zener  
-    - R2 (5kΩ)  : Potenciômetro , regula a corrente de base que vai para o transistor, assim a fonte varia de 12v e 100mA para 3v e ~24mA
-    - R3 (2kΩ)  : Como está ligado em série com o potênciometro ele também serve para regular a tensão de base que vai para o transistor e consequentemente a voltagem de saída de nossa fonte.
-    - R4 (120Ω) : Auxiliar para a regulagem da tensão de saída
-    - R5 (1kΩ)  : Deixa a corrente adequada para o funcionamento do LED
+    * R1 (390Ω) : Limita corrente eletrica que passa pelo Zener  
+    * R2 (5kΩ)  : Potenciômetro , regula a corrente de base que vai para o transistor, assim a fonte varia de 12v e 100mA para 3v e ~24mA
+    * R3 (2kΩ)  : Como está ligado em série com o potênciometro ele também serve para regular a tensão de base que vai para o transistor e consequentemente a voltagem de saída de nossa fonte.
+    * R4 (120Ω) : Auxiliar para a regulagem da tensão de saída
+    * R5 (1kΩ)  : Deixa a corrente adequada para o funcionamento do LED
 2. Capacitor
-    - Nosso circuito chega em um pico de 15V, então o de 25V é mais do que suficiente.
+    * Nosso circuito chega em um pico de 15V, então o de 25V é mais do que suficiente.
 3. Transistor
-    - Regula a corrente, e consequentemente diminui a voltagem de saída para também conseguir limitar a corrente (100 vezes a corrente de base). 
+    * Regula a corrente, e consequentemente diminui a voltagem de saída para também conseguir limitar a corrente (100 vezes a corrente de base). 
 4.  Diodo de Zener
-    - Equivale a : 13V e 20mA. Isso pois (P=i*U) P = 13V * 0,02A = 0.26W, então um diodo de 0,5W é mais do que suficiente
-    - É importante ressaltar que: a corrente que passa pelo diodo é a corrente que atravessa o resistor 390 Ohm (R1: 6mA ) menos 3mA que vai pro transistor ==> 3mA passando no Zener
+    * Equivale a : 13V e 20mA. Isso pois (P=i*U) P = 13V * 0,02A = 0.26W, então um diodo de 0,5W é mais do que suficiente
+    * É importante ressaltar que: a corrente que passa pelo diodo é a corrente que atravessa o resistor 390 Ohm (R1: 6mA ) menos 3mA que vai pro transistor ==> 3mA passando no Zener
 5. Ponte Retificadora
-    - Transforma AC em DC que sai de nosso transformador
+    * Transforma AC em DC que sai de nosso transformador
 6. Transformador
-    - Bivolt (pode ser ligado em 220v ou 127v). Potência de 7,5W
+    * Bivolt (pode ser ligado em 220v ou 127v). Potência de 7,5W
 7. LED
-    - Indica que o circuito está ligada, algo trivial
+    * Indica que o circuito está ligada, algo trivial
 <!-- 8. GND
     - O ground faz o escape da energia para um local seguro, por precaução -->
 <!-- 8. Fios
