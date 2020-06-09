@@ -13,7 +13,7 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
 ### Componentes e seus Valores
 | Componente        | Especificações      | Valor (Unidade)|
 | :---              |     :---:           |          :---  |
-| Resistor          | 120Ω                | [R$0,86](https://produto.mercadolivre.com.br/MLB-1018650605-kit-10-x-resistor-120-ohm-5-14w-025w-120r-arduino-pic-_JM?      matt_tool=79246729&matt_word&gclid=CjwKCAjw_LL2BRAkEiwAv2Y3SUJ3F83lU_eK4WZagDTpvwNTzqZsO1i3uPnKI7YKTb37Pw_KJQY8TBoCz2kQAvD_BwE&quantity=1)         |
+| Resistor          | 120Ω                | [R$0,86](https://tinyurl.com/y8pryj5b)         |
 | Resistor          | 390Ω                | [R$0,30](https://produto.mercadolivre.com.br/MLB-1008875897-kit-100un-resistores-2w-de-potncia-escolha-1-valor-ohmico-_JM?quantity=1&variation=24614777985#reco_item_pos=0&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=10f4f528-f90c-4ae4-a79b-d7bc075436cd)         |
 | Resistor          | 1kΩ                 | [R$0,13](https://produto.mercadolivre.com.br/MLB-1399314776-resistor-1k-ohms-100-unidades-_JM?quantity=1#position=1&type=item&tracking_id=52f519e5-730a-499f-b8c5-b95d75cb7d62)         |
 | Resistor          | 2kΩ                 | [R$0,16](https://produto.mercadolivre.com.br/MLB-1359755617-100un-resistor-18w-2k-2000-ohms-_JM?quantity=1#position=1&type=item&tracking_id=cfe0aced-991b-46f7-ad48-868c569c5428)         |
@@ -23,12 +23,11 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
 | Diodo de Zener    | 0,5W                | [R$0,21](https://produto.mercadolivre.com.br/MLB-1395521239-diodo-zener-13v-05w-1n5243-lote-de-100-pecas-_JM?quantity=1#position=1&type=item&tracking_id=d4d209e7-f5b5-459a-9025-ddfa3d9fc5e1)         |
 | Ponte Retificadora| 1000V e 2A          | [R$1,96](https://produto.mercadolivre.com.br/MLB-1151520283-ponte-retificadora-2w10-2a-1000v-lote-com-10-pecas-_JM?quantity=1#position=25&type=item&tracking_id=595601ca-7ab7-4d81-a34e-d3e6fc7ebbfb)         |
 | Transformador     | 15V e 500mA         | [R$25,90](https://www.filipeflop.com/produto/transformador-trafo-15v-500ma-bivolt/)         |
+|LED                | Difuso 3mm          | [R$0,20](https://www.eletrogate.com/led-difuso-3mm-vermelho)    |
+|Switch             | 250V e 3A           | [R$8,00](https://tinyurl.com/y9v33gzg)    |
+| **Custo Total**   |                     | **R$41,63**        |          
 <!-- | Fios (jumper)     | 15V e 500mA         | R$            | -->
 <!-- | Protoboard        | 830 Pontos          | R$            | -->
-|LED                | Difuso 3mm          | [R$0,20](https://www.eletrogate.com/led-difuso-3mm-vermelho)    |
-|Switch             | 250V e 3A           | [R$8,00](https://produto.mercadolivre.com.br/MLB-1300399738-boto-chave-gangorra-mini-interruptor-liga-desliga-on-off-10x15mm-kcd13-101-3a-250v-arduino-_JM?matt_tool=82322591&matt_word&gclid=CjwKCAjwh472BRAGEiwAvHVfGiIrBuFd12GNr9Fzy1iuBbbODLDgRfy8wOzeg9Zas0lDsioWgCMYHhoCPS4QAvD_BwE&quantity=1&variation=42249952649&onAttributesExp=true)        |
-| **Custo Total**   |                     | **R$41,63**        |          
-
 ### Justificativa dos Componentes Escolhidos
 1. Resistores
     - R1 (390Ω) : Limita corrente eletrica que passa pelo Zener  
