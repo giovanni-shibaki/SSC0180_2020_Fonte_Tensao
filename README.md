@@ -60,7 +60,7 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
 
 ## Projeto do Esquemático e do PCB no EAGLE
 
-## Fotos do Circuito
+## Fotos do Circuito (EM BREVE)
 ` incluir fotos da placa/protoboard`
 
 ## Vídeo Explicativo
@@ -74,7 +74,10 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
 
 * **Pedro Kenzo Muramatsu Carmo** - [Muramatsu2602](https://github.com/Muramatsu2602)
 
+## Circuito no Falstad
+
 ## Agradecimentos
 
 * Agradecimentos ao Prof Simões pela oportunidade de realizar o projeto.
 * Agradecimentos à equipe pela dedicação e afinco nestes tempos anômalos
+* Special thanks to [Mehdi Sadaghdar](https://www.youtube.com/watch?v=j4u8fl31sgQ&list=PLr_CZLgMkHeXc_45uIgYutY0m6fqmI5du), whose insighful videos made learning electronics more enjoyable!
