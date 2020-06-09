@@ -24,7 +24,11 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
 | Ponte Retificadora| 1000V e 2A          | [R$1,96](https://produto.mercadolivre.com.br/MLB-1151520283-ponte-retificadora-2w10-2a-1000v-lote-com-10-pecas-_JM?quantity=1#position=25&type=item&tracking_id=595601ca-7ab7-4d81-a34e-d3e6fc7ebbfb)         |
 | Transformador     | 15V e 500mA         | [R$25,90](https://www.filipeflop.com/produto/transformador-trafo-15v-500ma-bivolt/)         |
 |LED                | Difuso 3mm          | [R$0,20](https://www.eletrogate.com/led-difuso-3mm-vermelho)    |
+<<<<<<< HEAD
 |Switch             | 250V e 3A           | [R$8,00](https://tinyurl.com/y9v33gzg)    |
+=======
+|Switch             | 250V e 3A           | [R$8,00](https://tinyurl.com/y9v33gzg)        |
+>>>>>>> master
 | **Custo Total**   |                     | **R$41,63**        |          
 <!-- | Fios (jumper)     | 15V e 500mA         | R$            | -->
 <!-- | Protoboard        | 830 Pontos          | R$            | -->
