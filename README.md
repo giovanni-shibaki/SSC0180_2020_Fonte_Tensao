@@ -5,52 +5,59 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
 ## Diagrama da Fonte
 <img src="images/DiagramaFonte.PNG">
 
-* Tensão ajustável entre 3V e 12V
+### Critérios
+* Tensão ajustável entre 3V e 12V 
 * Corrente de 100mA
 * Baixo Custo
 
 ### Componentes e seus Valores
-| Componente | Especificações | Valor |
-| :---              |     :---:      |          :---  |
-| Resistor          | 50Ω                 | R$            |
-| Resistor          | 120Ω                 | R$            |
-| Resistor          | 2kΩ                 | R$            |
-| Potenciômetro     | 5kΩ                 | R$            |
-| Capacitor         | 470μF               | R$            |
-|Transistor         | 15V  e 500mA        | R$            |
-| Diodo de Zener    | 0,5W                | R$            |
-| Ponte Retificadora| 15V e 2A            | R$            |
-| Transformador     | 15V e 500mA         | R$            |
-| Fios (jumper)     | 15V e 500mA         | R$            |
-| Protoboard        | 830 Pontos          | R$            |
-| **Custo Total**   |                     | **R$**        |          
+| Componente        | Especificações      | Valor (Unidade)|
+| :---              |     :---:           |          :---  |
+| Resistor          | 120Ω                | [R$0,86](https://produto.mercadolivre.com.br/MLB-1018650605-kit-10-x-resistor-120-ohm-5-14w-025w-120r-arduino-pic-_JM?      matt_tool=79246729&matt_word&gclid=CjwKCAjw_LL2BRAkEiwAv2Y3SUJ3F83lU_eK4WZagDTpvwNTzqZsO1i3uPnKI7YKTb37Pw_KJQY8TBoCz2kQAvD_BwE&quantity=1)         |
+| Resistor          | 390Ω                | [R$0,30](https://produto.mercadolivre.com.br/MLB-1008875897-kit-100un-resistores-2w-de-potncia-escolha-1-valor-ohmico-_JM?quantity=1&variation=24614777985#reco_item_pos=0&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=10f4f528-f90c-4ae4-a79b-d7bc075436cd)         |
+| Resistor          | 1kΩ                 | [R$0,13](https://produto.mercadolivre.com.br/MLB-1399314776-resistor-1k-ohms-100-unidades-_JM?quantity=1#position=1&type=item&tracking_id=52f519e5-730a-499f-b8c5-b95d75cb7d62)         |
+| Resistor          | 2kΩ                 | [R$0,16](https://produto.mercadolivre.com.br/MLB-1359755617-100un-resistor-18w-2k-2000-ohms-_JM?quantity=1#position=1&type=item&tracking_id=cfe0aced-991b-46f7-ad48-868c569c5428)         |
+| Potenciômetro     | 5kΩ                 | [R$1,09](https://www.baudaeletronica.com.br/potenciometro-linear-de-5k-5000.html)         |
+| Capacitor         | 470μF               | [R$1,70](https://produto.mercadolivre.com.br/MLB-845022301-10x-capacitor-eletrolitico-470uf-x-25v-470-uf-470uf-b-_JM?matt_tool=79246729&matt_word&gclid=CjwKCAjw_LL2BRAkEiwAv2Y3Sb3K7a3Tunb33Op9IqjhFXaI9mM8M3F670_AOoe76uXUgjvsgv6zNBoC-swQAvD_BwE&quantity=1)         |
+| Transistor        | 15V  e 500mA        | [R$1,12](https://produto.mercadolivre.com.br/MLB-939476869-10x-transistor-2sa1015-a1015-_JM?quantity=1&shippingOptionId=undefined)         |
+| Diodo de Zener    | 0,5W                | [R$0,21](https://produto.mercadolivre.com.br/MLB-1395521239-diodo-zener-13v-05w-1n5243-lote-de-100-pecas-_JM?quantity=1#position=1&type=item&tracking_id=d4d209e7-f5b5-459a-9025-ddfa3d9fc5e1)         |
+| Ponte Retificadora| 1000V e 2A          | [R$1,96](https://produto.mercadolivre.com.br/MLB-1151520283-ponte-retificadora-2w10-2a-1000v-lote-com-10-pecas-_JM?quantity=1#position=25&type=item&tracking_id=595601ca-7ab7-4d81-a34e-d3e6fc7ebbfb)         |
+| Transformador     | 15V e 500mA         | [R$25,90](https://www.filipeflop.com/produto/transformador-trafo-15v-500ma-bivolt/)         |
+<!-- | Fios (jumper)     | 15V e 500mA         | R$            | -->
+<!-- | Protoboard        | 830 Pontos          | R$            | -->
+|LED                | Difuso 3mm          | [R$0,20](https://www.eletrogate.com/led-difuso-3mm-vermelho)    |
+|Switch             | 250V e 3A           | [R$8,00](https://produto.mercadolivre.com.br/MLB-1300399738-boto-chave-gangorra-mini-interruptor-liga-desliga-on-off-10x15mm-kcd13-101-3a-250v-arduino-_JM?matt_tool=82322591&matt_word&gclid=CjwKCAjwh472BRAGEiwAvHVfGiIrBuFd12GNr9Fzy1iuBbbODLDgRfy8wOzeg9Zas0lDsioWgCMYHhoCPS4QAvD_BwE&quantity=1&variation=42249952649&onAttributesExp=true)        |
+| **Custo Total**   |                     | **R$41,63**        |          
 
 ### Justificativa dos Componentes Escolhidos
 1. Resistores
-    - de 50Ω: No circuito chega em até 300mW, então esse de 1W está bom
-    - de 120Ω: 
-    - de 2kΩ: Como está ligado em série com o potênciometro ele também serve para regular a tensão de base que vai para o transistor e consequentemente a voltagem de saída de nossa fonte.
-2. Potenciômetro
-    - Regula a corrente de base que vai para o transistor, assim a fonte varia de 12v e 100mA para 3v e ~24mA
-3. Capacitor
-    - Nosso circuito chega em um pico de 13V, então o de 25V é mais do que suficiente.
-4. Transistor
-    - Regula a corrente, e consequentemente diminui a tensão também para conseguir limitar a corrente (100 vezes a corrente de base)
-5.  Diodo de Zener
+    - R1 (390Ω) : Limita corrente eletrica que passa pelo Zener  
+    - R2 (5kΩ)  : Potenciômetro , regula a corrente de base que vai para o transistor, assim a fonte varia de 12v e 100mA para 3v e ~24mA
+    - R3 (2kΩ)  : Como está ligado em série com o potênciometro ele também serve para regular a tensão de base que vai para o transistor e consequentemente a voltagem de saída de nossa fonte.
+    - R4 (120Ω) : Auxiliar para a regulagem da tensão de saída
+    - R5 (1kΩ)  : Deixa a corrente adequada para o funcionamento do LED
+2. Capacitor
+    - Nosso circuito chega em um pico de 15V, então o de 25V é mais do que suficiente.
+3. Transistor
+    - Regula a corrente, e consequentemente diminui a voltagem de saída para também conseguir limitar a corrente (100 vezes a corrente de base). 
+4.  Diodo de Zener
     - Equivale a : 13V e 20mA. Isso pois (P=i*U) P = 13V * 0,02A = 0.26W, então um diodo de 0,5W é mais do que suficiente
-    - É importante ressaltar que corrente que passa pelo diodo é a corrente que passa pelo resistor 50ohm menos o 1mA que vai pro transistor
-
-6. Ponte Retificadora
+    - É importante ressaltar que: a corrente que passa pelo diodo é a corrente que atravessa o resistor 390 Ohm (R1: 6mA ) menos 3mA que vai pro transistor ==> 3mA passando no Zener
+5. Ponte Retificadora
     - Transforma AC em DC que sai de nosso transformador
-7. Transformador
-    - Bivolt (pode ser ligado em 220v ou 127v)
+6. Transformador
+    - Bivolt (pode ser ligado em 220v ou 127v). Potência de 7,5W
+7. LED
+    - Indica que o circuito está ligada, algo trivial
+<!-- 8. GND
+    - O ground faz o escape da energia para um local seguro, por precaução -->
 <!-- 8. Fios
-    - 
-9. Protoboard
+    - Conectam os componentes do circuito  -->
+<!-- 9. Protoboard
     - Base de construção de circuitos. Escolhida por praticidade, não necessita soldar para conectar componentes do circuito -->
 
 ## Circuito no Falstad
-* http://tinyurl.com/y8g3jqbd
+* http://tinyurl.com/yb2yxa53
 
 ## Projeto do Esquemático e do PCB no EAGLE
 
@@ -71,3 +78,4 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
 ## Agradecimentos
 
 * Agradecimentos ao Prof Simões pela oportunidade de realizar o projeto.
+* Agradecimentos à equipe pela dedicação e afinco nestes tempos anômalos
