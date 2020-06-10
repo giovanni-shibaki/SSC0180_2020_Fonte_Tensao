@@ -74,8 +74,6 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
 
 * **Pedro Kenzo Muramatsu Carmo** - [Muramatsu2602](https://github.com/Muramatsu2602)
 
-## Circuito no Falstad
-
 ## Agradecimentos
 
 * Agradecimentos ao Prof Simões pela oportunidade de realizar o projeto.
