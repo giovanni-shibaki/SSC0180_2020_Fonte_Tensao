@@ -62,12 +62,12 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
 
 ## Projeto do Esquemático e do PCB no EAGLE
 ### Esquemático
-O projeto esquemático é análogo a uma "planta" de um circuito. Nele são ilustrados os componentes, valores e suas conexões no circuito.
+O projeto esquemático é análogo a uma "planta" de um circuito. Nele são ilustrados os componentes, valores e suas conexões no circuito.<br>
 <img src="images/pcb2.jpg">
 
 ### PBC ( _Printed Circuit Board_ )
-O PCB é uma placa dedicada a expressar as conexões de um determinado circuito. Permitem uma instalação precisa, compacta e confiável dos componentes. 
-<img src="images/pcb1.jpg">
+O PCB é uma placa dedicada a expressar as conexões de um determinado circuito. Permitem uma instalação precisa, compacta e confiável dos componentes. <br>
+<img src="images/pcb1.jpg"><br>
 OBS: os arquivos pertinentes ao projeto realizado no EAGLE podem ser encontrados neste mesmo repositório, na pasta "eagle"
 
 ## Fotos do Circuito (EM BREVE)
