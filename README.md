@@ -35,15 +35,17 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
     * R1 (390Ω) : Limita corrente eletrica que passa pelo Zener  
     * R2 (5kΩ)  : Potenciômetro , regula a corrente de base que vai para o transistor, assim a fonte varia de 12v e 100mA para 3v e ~24mA
     * R3 (2kΩ)  : Como está ligado em série com o potênciometro ele também serve para regular a tensão de base que vai para o transistor e consequentemente a voltagem de saída de nossa fonte.
-    * R4 (120Ω) : Auxiliar para a regulagem da tensão de saída
+    * R4 (120Ω) : Auxiliar para a regulagem da tensão de saída (é como a saída da fonte)
     * R5 (1kΩ)  : Deixa a corrente adequada para o funcionamento do LED
 2. Capacitor
+    * Serve para estabilizar a tensão do circuito
     * Nosso circuito chega em um pico de 15V, então o de 25V é mais do que suficiente.
 3. Transistor
-    * Regula a corrente, e consequentemente diminui a voltagem de saída para também conseguir limitar a corrente (100 vezes a corrente de base). 
+    * Atenua a corrente e a tensão que vai para a saída do sistema através da corrente de base de 1mA que passa pelo potenciometro R2 e a resistência R3.
 4.  Diodo de Zener
     * Equivale a : 13V e 20mA. Isso pois (P=i*U) P = 13V * 0,02A = 0.26W, então um diodo de 0,5W é mais do que suficiente
     * É importante ressaltar que: a corrente que passa pelo diodo é a corrente que atravessa o resistor 390 Ohm (R1: 6mA ) menos 3mA que vai pro transistor ==> 3mA passando no Zener
+    * Como opera inversamente, ele mantem o valor da tensão máxima, no caso os 13V.
 5. Ponte Retificadora
     * Transforma AC em DC que sai de nosso transformador
 6. Transformador
