@@ -3,7 +3,9 @@
 Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC0180 USP 2020. Vamos partir da tensão da tomada (220V ou 110V) e teremos que transforma-la de 110V/220V Corrente Alternada em uma tensão adequada para alimentar nosso circuito. Isto é, de 3V-12V em Corrente Contínua.
 
 ## Diagrama da Fonte
+### No Falstad
 <img src="images/DiagramaFonte.PNG">
+
 
 ### Critérios
 * Tensão ajustável entre 3V e 12V 
@@ -59,6 +61,13 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
 * http://tinyurl.com/yb2yxa53
 
 ## Projeto do Esquemático e do PCB no EAGLE
+### Esquemático
+<img src="images/pcb2.PNG">
+
+### PBC (_Printed Circuit Board_)
+
+<img src="images/pcb1.PNG">
+OBS: os arquivos pertinentes ao projeto realizado no EAGLE podem ser encontrados neste mesmo repositório, na pasta "eagle"
 
 ## Fotos do Circuito (EM BREVE)
 ` incluir fotos da placa/protoboard`
@@ -73,8 +82,6 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
 * **Melissa Motoki Nogueira**  - [mmotokki](https://github.com/mmotokki)
 
 * **Pedro Kenzo Muramatsu Carmo** - [Muramatsu2602](https://github.com/Muramatsu2602)
-
-## Circuito no Falstad
 
 ## Agradecimentos
 
