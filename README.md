@@ -49,7 +49,7 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
 5. Ponte Retificadora
     * Transforma AC em DC que sai de nosso transformador
 6. Transformador
-    * Bivolt (pode ser ligado em 220v ou 127v). Potência de 7,5W
+    * 127V ou 220V através de chave seletora no circuito. Potência de 7,5W
 7. LED
     * Indica que o circuito está ligada, algo trivial
 <!-- 8. GND
@@ -76,7 +76,8 @@ OBS: os arquivos pertinentes ao projeto realizado no EAGLE podem ser encontrados
 ` incluir fotos da placa/protoboard`
 
 ## Vídeo Explicativo
-`video mostrando o Projeto funcionando ou simulando e explicando porque escolheu os valores dos componentes`
+[![Imagem da Thumbnail](images/thumb.PNG)](https://www.youtube.com/watchv=fa3VoU0vQqE&feature=youtu.be)
+
 
 ## Participantes
 
@@ -91,3 +92,7 @@ OBS: os arquivos pertinentes ao projeto realizado no EAGLE podem ser encontrados
 * Agradecimentos ao [Prof Simões](https://github.com/simoesusp) pela oportunidade de realizar o projeto.
 * Agradecimentos à equipe pela dedicação e afinco nestes tempos anômalos
 * Special thanks to [Mehdi Sadaghdar](https://www.youtube.com/watch?v=j4u8fl31sgQ&list=PLr_CZLgMkHeXc_45uIgYutY0m6fqmI5du), whose insighful videos made learning electronics more enjoyable!
+
+## Observações
+
+* O circuito montado no Falstad e no Eagle são baseados em um transformador de 127V. Caso 220V fosse utilizado algumas possíveis mudanças poderiam ser necessarias, podendo ser utilizado um Capacitor de 1000uF.
