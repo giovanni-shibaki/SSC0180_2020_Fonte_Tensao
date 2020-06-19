@@ -76,7 +76,7 @@ OBS: os arquivos pertinentes ao projeto realizado no EAGLE podem ser encontrados
 ` incluir fotos da placa/protoboard`
 
 ## Vídeo Explicativo
-[![Imagem da Thumbnail](images/thumb.PNG)](https://www.youtube.com/watchv=fa3VoU0vQqE&feature=youtu.be)
+[![Imagem da Thumbnail](images/thumb.PNG)](https://youtu.be/fa3VoU0vQqE)
 
 
 ## Participantes
