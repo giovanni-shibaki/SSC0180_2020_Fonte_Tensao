@@ -19801,7 +19801,7 @@ Power transformer (low loss) up to typ. 400kHz</description>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="Q1" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC547*" device="" package3d_urn="urn:adsk.eagle:package:28523/2" technology="B"/>
 <part name="S1" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DS01E" device="" package3d_urn="urn:adsk.eagle:package:27201/2"/>
-<part name="R6" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="B64Y" package3d_urn="urn:adsk.eagle:package:22690/1" value="5kΩ - 25mA"/>
+<part name="R2" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="B64Y" package3d_urn="urn:adsk.eagle:package:22690/1" value="5kΩ - 25mA"/>
 <part name="L1" library="inductor-nkl" library_urn="urn:adsk.eagle:library:242" deviceset="R1405V" device="B2" package3d_urn="urn:adsk.eagle:package:14869/1" value="15V - 500mA"/>
 </parts>
 <sheets>
@@ -19853,7 +19853,7 @@ Power transformer (low loss) up to typ. 400kHz</description>
 <attribute name="NAME" x="-6.35" y="73.66" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="-6.35" y="76.2" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R6" gate="G$1" x="78.994" y="54.61" smashed="yes">
+<instance part="R2" gate="G$1" x="78.994" y="54.61" smashed="yes">
 <attribute name="NAME" x="73.914" y="52.07" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="76.454" y="52.07" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -19868,7 +19868,7 @@ Power transformer (low loss) up to typ. 400kHz</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="R6" gate="G$1" pin="A"/>
+<pinref part="R2" gate="G$1" pin="A"/>
 <wire x1="78.994" y1="46.99" x2="78.74" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19937,7 +19937,7 @@ Power transformer (low loss) up to typ. 400kHz</description>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="58.928" y1="60.452" x2="58.928" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="58.928" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="E"/>
+<pinref part="R2" gate="G$1" pin="E"/>
 <wire x1="78.994" y1="62.23" x2="78.994" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="78.994" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
 <junction x="58.42" y="68.58"/>
@@ -19974,7 +19974,7 @@ Power transformer (low loss) up to typ. 400kHz</description>
 <net name="N$12" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="B"/>
-<pinref part="R6" gate="G$1" pin="S"/>
+<pinref part="R2" gate="G$1" pin="S"/>
 <wire x1="86.36" y1="73.66" x2="84.074" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="84.074" y1="73.66" x2="84.074" y2="54.61" width="0.1524" layer="91"/>
 </segment>

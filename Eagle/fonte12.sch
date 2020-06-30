@@ -17213,6 +17213,83 @@ Power transformer (low loss) up to typ. 400kHz</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="jumper" urn="urn:adsk.eagle:library:252">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="JP1" urn="urn:adsk.eagle:footprint:15398/1" library_version="2">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<wire x1="-1.016" y1="0" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="0" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.254" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-2.54" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="2.286" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="2.286" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.54" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="-1.27" drill="0.9144" shape="long"/>
+<pad name="2" x="0" y="1.27" drill="0.9144" shape="long"/>
+<text x="-1.651" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="2.921" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
+<rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="JP1" urn="urn:adsk.eagle:package:15455/1" type="box" library_version="2">
+<description>JUMPER</description>
+<packageinstances>
+<packageinstance name="JP1"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="JP2E" urn="urn:adsk.eagle:symbol:15391/1" library_version="2">
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0.635" x2="-0.635" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
+<text x="-1.27" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="1" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JP1E" urn="urn:adsk.eagle:component:15487/2" prefix="JP" uservalue="yes" library_version="2">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="JP2E" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="JP1">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15455/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="61" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17229,13 +17306,13 @@ Power transformer (low loss) up to typ. 400kHz</description>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-10" package3d_urn="urn:adsk.eagle:package:23351/1" value="470uF"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="390Ω"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="2kΩ"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="120Ω"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="Q1" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC547*" device="" package3d_urn="urn:adsk.eagle:package:28523/2" technology="B"/>
 <part name="S1" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DS01E" device="" package3d_urn="urn:adsk.eagle:package:27201/2"/>
 <part name="L1" library="inductor-nkl" library_urn="urn:adsk.eagle:library:242" deviceset="R1405V" device="B2" package3d_urn="urn:adsk.eagle:package:14869/1" value="15V - 500mA"/>
 <part name="R2" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="3RP/1610N" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="5kΩ"/>
+<part name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -17266,10 +17343,6 @@ Power transformer (low loss) up to typ. 400kHz</description>
 <attribute name="NAME" x="77.2414" y="36.83" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="82.042" y="36.83" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R4" gate="G$1" x="93.472" y="53.594" smashed="yes" rot="R270">
-<attribute name="NAME" x="94.9706" y="57.404" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="90.17" y="57.404" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="R5" gate="G$1" x="106.934" y="58.928" smashed="yes" rot="R90">
 <attribute name="NAME" x="105.4354" y="55.118" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="110.236" y="55.118" size="1.778" layer="96" rot="R90"/>
@@ -17293,6 +17366,10 @@ Power transformer (low loss) up to typ. 400kHz</description>
 <instance part="R2" gate="G$1" x="78.74" y="53.34" smashed="yes">
 <attribute name="NAME" x="72.771" y="49.53" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="74.93" y="49.53" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP1" gate="A" x="91.44" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="91.44" y="52.07" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="91.44" y="59.055" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -17359,9 +17436,13 @@ Power transformer (low loss) up to typ. 400kHz</description>
 <junction x="43.18" y="33.02"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="106.68" y1="40.64" x2="106.68" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="35.56" x2="58.928" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="35.56" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="35.56" x2="58.928" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="58.928" y1="35.56" x2="58.928" y2="55.372" width="0.1524" layer="91"/>
 <junction x="58.928" y="55.372"/>
+<pinref part="JP1" gate="A" pin="1"/>
+<wire x1="93.98" y1="53.34" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
+<junction x="93.98" y="35.56"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -17379,20 +17460,18 @@ Power transformer (low loss) up to typ. 400kHz</description>
 <net name="N$3" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="E"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="78.74" x2="93.472" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="93.472" y1="78.74" x2="93.472" y2="58.674" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="78.74" x2="106.934" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="78.74" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="78.74" x2="106.934" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="106.934" y1="78.74" x2="106.934" y2="64.008" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="93.98" y1="78.74" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
 <junction x="93.98" y="78.74"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="93.472" y1="48.514" x2="93.472" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="93.472" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -17426,6 +17505,11 @@ Power transformer (low loss) up to typ. 400kHz</description>
 <pinref part="Q1" gate="G$1" pin="B"/>
 <wire x1="83.82" y1="53.34" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="53.34" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<junction x="93.98" y="78.74"/>
 </segment>
 </net>
 </nets>

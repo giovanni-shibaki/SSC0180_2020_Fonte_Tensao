@@ -19342,19 +19342,19 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </class>
 </classes>
 <parts>
-<part name="V1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="VOLTAGE" device="" value="0V"/>
-<part name="B1" library="rectifier" library_urn="urn:adsk.eagle:library:336" deviceset="RB1A" device="" package3d_urn="urn:adsk.eagle:package:23866/1"/>
-<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="DO41Z10" package3d_urn="urn:adsk.eagle:package:43341/1"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-10" package3d_urn="urn:adsk.eagle:package:23351/1"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1"/>
+<part name="V1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="VOLTAGE" device="" value="60Hz"/>
+<part name="B1" library="rectifier" library_urn="urn:adsk.eagle:library:336" deviceset="RB1A" device="" package3d_urn="urn:adsk.eagle:package:23866/1" value="15V - 2A"/>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="DO41Z10" package3d_urn="urn:adsk.eagle:package:43341/1" value="13V"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-10" package3d_urn="urn:adsk.eagle:package:23351/1" value="470uF"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="390Ω"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="2kΩ"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="120Ω"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
-<part name="TR1" library="inductor-neosid" library_urn="urn:adsk.eagle:library:241" deviceset="SM-T4" device="" package3d_urn="urn:adsk.eagle:package:14702/1"/>
+<part name="TR1" library="inductor-neosid" library_urn="urn:adsk.eagle:library:241" deviceset="SM-T4" device="" package3d_urn="urn:adsk.eagle:package:14702/1" value="15V - 500mA"/>
 <part name="Q1" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC547*" device="" package3d_urn="urn:adsk.eagle:package:28523/2" technology="B"/>
 <part name="S1" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DS01E" device="" package3d_urn="urn:adsk.eagle:package:27201/2"/>
-<part name="R6" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="B64Y" package3d_urn="urn:adsk.eagle:package:22690/1"/>
+<part name="R6" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="B64Y" package3d_urn="urn:adsk.eagle:package:22690/1" value="5kΩ - 25mA"/>
 </parts>
 <sheets>
 <sheet>
