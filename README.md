@@ -97,3 +97,4 @@ OBS: os arquivos pertinentes ao projeto realizado no EAGLE podem ser encontrados
 
 * O circuito montado no Falstad e no Eagle são baseados em um transformador de 127V. Caso 220V fosse utilizado algumas possíveis mudanças poderiam ser necessarias, podendo ser utilizado um Capacitor de 1000uF.
 * O embasamento teórico para a elaboração da fonte pode ser encontrada no [livro](https://www.amazon.com.br/Eletr%C3%B4nica-B%C3%A1sica-Computa%C3%A7%C3%A3o-Annibal-Junior/dp/8521616996) base da disciplina
+* A organização do projeto, bem como reuniões e discussões, pode ser conferida neste [doc](https://docs.google.com/document/d/1Gu77hdx1NdPrP7V1o1ucyJgEMdmdFqv-v6fdKn2zFD0/edit?usp=sharing) 
