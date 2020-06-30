@@ -60,7 +60,7 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
     - Base de construção de circuitos. Escolhida por praticidade, não necessita soldar para conectar componentes do circuito -->
 
 ## Circuito no Falstad
-* http://tinyurl.com/yb2yxa53
+* http://tinyurl.com/ycns7so6
 
 ## Projeto do Esquemático e do PCB no EAGLE
 ### Esquemático
