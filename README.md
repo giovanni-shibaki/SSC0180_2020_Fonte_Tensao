@@ -35,7 +35,7 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
     * R1 (390Ω) : Limita corrente eletrica que passa pelo Zener  
     * R2 (5kΩ)  : Potenciômetro , regula a corrente de base que vai para o transistor, assim a fonte varia de 12v e 100mA para 3v e ~24mA
     * R3 (2kΩ)  : Como está ligado em série com o potênciometro ele também serve para regular a tensão de base que vai para o transistor e consequentemente a voltagem de saída de nossa fonte.
-    * R4 (120Ω) : Auxiliar para a regulagem da tensão de saída (é como a saída da fonte)
+    * R4 (120Ω) : Auxiliar para a regulagem da tensão de saída (é como a saída da fonte). Representa a saída da Fonte
     * R5 (1kΩ)  : Deixa a corrente adequada para o funcionamento do LED
 2. Capacitor
     * Serve para estabilizar a tensão do circuito
@@ -96,3 +96,4 @@ OBS: os arquivos pertinentes ao projeto realizado no EAGLE podem ser encontrados
 ## Observações
 
 * O circuito montado no Falstad e no Eagle são baseados em um transformador de 127V. Caso 220V fosse utilizado algumas possíveis mudanças poderiam ser necessarias, podendo ser utilizado um Capacitor de 1000uF.
+* O embasamento teórico para a elaboração da fonte pode ser encontrada no [livro](https://www.amazon.com.br/Eletr%C3%B4nica-B%C3%A1sica-Computa%C3%A7%C3%A3o-Annibal-Junior/dp/8521616996) base da disciplina
