@@ -4,7 +4,7 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
 
 ## Diagrama da Fonte
 ### No Falstad
-<img src="images/DiagramaFonte.PNG">
+<img src="images/Diagrama_Fonte_Falstad.PNG">
 
 
 ### Critérios
@@ -35,7 +35,7 @@ Projeto de estudo e desenvolvimento de uma fonte elétrica na matéria de SSC018
     * R1 (390Ω) : Limita corrente eletrica que passa pelo Zener  
     * R2 (5kΩ)  : Potenciômetro , regula a corrente de base que vai para o transistor, assim a fonte varia de 12v e 100mA para 3v e ~24mA
     * R3 (2kΩ)  : Como está ligado em série com o potênciometro ele também serve para regular a tensão de base que vai para o transistor e consequentemente a voltagem de saída de nossa fonte.
-    * R4 (120Ω) : Auxiliar para a regulagem da tensão de saída (é como a saída da fonte). Representa a saída da Fonte
+    * R4 (120Ω) : Auxiliar para a regulagem da tensão de saída (é como a saída da fonte). Representa a saída da Fonte no pior caso (120ohms)
     * R5 (1kΩ)  : Deixa a corrente adequada para o funcionamento do LED
 2. Capacitor
     * Serve para estabilizar a tensão do circuito
